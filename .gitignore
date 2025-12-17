@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Coverage / test
+.pytest_cache/
+.coverage
+
+# Build artifacts
+dist/
+build/
+
+# Local env
+.env
+venv/
+.DS_Store
