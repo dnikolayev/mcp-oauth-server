@@ -1,0 +1,2 @@
+[console_scripts]
+mcp-oauth-server = mcp_oauth_server.cli:main
