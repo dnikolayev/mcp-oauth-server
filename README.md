@@ -1,16 +1,16 @@
 # MCP OAuth Server for ChatGPT, Gemini, Claude and other MCP clients
 
-![Build Status](https://github.com/yourusername/mcp-oauth-server/actions/workflows/ci.yml/badge.svg)
+![Build Status](https://github.com/dnikolayev/mcp-oauth-server/actions/workflows/ci.yml/badge.svg)
 
 
-A generic implementation of a Model Context Protocol (MCP) server with built-in OAuth 2.0 support. It provides a solid foundation for building MCP servers that require robust authentication, whether acting as an OAuth 2.0 client to an upstream API or serving as a standalone authenticated agent.
+A generic implementation of a Model Context Protocol (MCP) server with built-in OAuth 2.0/2.1 support. It provides a solid foundation for building MCP servers that require robust authentication, whether acting as an OAuth 2.0/2.1 client to an upstream API or serving as a standalone authenticated agent.
 
 > **Compatible with:** ChatGPT, Gemini, Claude, and other MCP-compliant clients.
 
 
 ## Features
 
-- **OAuth 2.0 / 2.1 Support**: Built-in support for Authorization Code flow with PKCE (compliant with OAuth 2.1 best practices), Client Credentials, and token management.
+- **OAuth 2.0/2.1 Support**: Built-in support for Authorization Code flow with PKCE (compliant with OAuth 2.1 best practices), Client Credentials, and token management.
 - **Generic Tools**: Comes with example tools (`echo`, `add`) and a structure to easily add your own.
 - **FastMCP & Sanic**: Built on top of `mcp` (FastMCP) and `sanic` for high-performance async HTTP serving.
 - **Storage**: Pluggable storage backends (Redis, PostgreSQL, Memory) for sessions and token storage.

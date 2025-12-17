@@ -2,7 +2,7 @@ Metadata-Version: 2.4
 Name: mcp_oauth_server
 Version: 0.1.0
 Summary: A generic implementation of a Model Context Protocol (MCP) server with built-in OAuth 2.0 support.
-Author-email: Dmytro Nikolayev <nick@example.com>
+Author-email: Dmytro Nikolayev <dnikolayev@gmail.com>
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -27,6 +27,9 @@ Requires-Dist: sanic-testing; extra == "dev"
 Requires-Dist: pytest==9.0.2; extra == "dev"
 Requires-Dist: pytest-asyncio==1.3.0; extra == "dev"
 Requires-Dist: pytest-cov==7.0.0; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
 Dynamic: license-file
 
 # MCP OAuth Server for ChatGPT, Gemini, Claude and other MCP clients
